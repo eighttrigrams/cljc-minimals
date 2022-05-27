@@ -1,9 +1,9 @@
-# Example Web Application in Clojure
+# sente
 
 This is to demo rendering with [yogthos/Selmer](https://github.com/yogthos/Selmer),
-as demonstrated in https://github.com/seancorfield/usermanager-example.
+as demonstrated in [seancorfield/usermanager-example](https://github.com/seancorfield/usermanager-example).
 
-## Getting started
+Run
 
     $ clj -M -m main
     Visit localhost:8888

@@ -13,7 +13,7 @@
     {:kv-store {:xtdb/module 'xtdb.lmdb/->kv-store
                 :db-dir      "data/log"}}
     :xtdb.lucene/lucene-store
-    {:db-dir  "data/lucene"
+    {:db-dir  "data/search"
      :indexer 'xtdb.lucene.multi-field/->indexer}}))
 
 (def batch1

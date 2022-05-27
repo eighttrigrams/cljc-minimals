@@ -2,9 +2,9 @@
 
 Demonstrates the usage of the library `stuartsierra/component`.
 
-- Source and documentation can be found here: https://github.com/stuartsierra/component
-- This example is derived from https://github.com/seancorfield/usermanager-example
-- See also "Reloaded"-Workflow: https://cognitect.com/blog/2013/06/04/clojure-workflow-reloaded
+- Source and documentation can be found here: [stuartsierra/component](https://github.com/stuartsierra/component)
+- This example is derived from [seancorfield/usermanager-example](https://github.com/seancorfield/usermanager-example)
+- See also ["Reloaded"-Workflow](https://cognitect.com/blog/2013/06/04/clojure-workflow-reloaded)
 
 The purpose of this workflow is to 
 orderly clean up the namespaces during a REPL session

@@ -1,13 +1,15 @@
 # mount
 
-A json api using mount
+A json api using [tolitius/mount](https://github.com/tolitius/mount). This example is derived from a [Luminus](https://github.com/luminus-framework/luminus) template project.
 
-## TODOs
-
-- Describe the project and its components and goals here
-- Allow to (gracefully) shutdown only server with `(mount.core/stop [#'main/http-server])`
-- Mention how reload works and how one can test it (resources.clj!)
-- Mention dev/env.clj and prod/env.clj and that this idea came from luminus
+A couple of things I liked particularly about this setup and 
+replicated them from scratch. One thing is the combination
+of `wrap-reload` and `mount`, which makes it possible that
+on each request not only get modified sources recompiled, but
+also the necessary subsystems restarted, which I found very neat!
+Another thing was how in the `dev` folder namespace variants
+are introduced for the different environments which make it that
+`wrap-reload` is only part of the middleware pipeline in dev mode.
 
 ## Getting started
 
@@ -33,6 +35,12 @@ This
 
 will get you a webserver running at `localhost:3000`.
 
-## Usage
+Next, query the api with
 
-Post `{ "q": "" }` to `localhost:3000` to see available and matching resources.
+```bash
+$ curl -XPOST -H 'Content-Type: application/json' -d '{"q": ""}' localhost:3000
+```
+
+Now, change one of the resource names in `src/resources.clj` and see
+that the result will reflect that change on the next call. You'll also be
+able to observe that the resources component will have restarted.

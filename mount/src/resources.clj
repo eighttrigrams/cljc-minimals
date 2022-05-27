@@ -7,9 +7,8 @@
            :name "one"}
           {:id   2
            :name "two"}
-          {:id        3
-           :name      "three"
-           :protected true}]
+          {:id   3
+           :name "three"}]
   :stop 0)
 
 (defn get-resources [q]

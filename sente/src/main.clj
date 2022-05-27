@@ -11,7 +11,7 @@
         view (:view req "home")
         html (tmpl/render-file (str "views/" view ".html") data)]
     (-> (response (tmpl/render-file "layouts/page.html"
-                                         (assoc data :body [:safe html])))
+                                    (assoc data :body [:safe html])))
         (content-type "text/html"))))
 
 (defn get-items
