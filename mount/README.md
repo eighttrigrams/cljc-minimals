@@ -7,6 +7,7 @@ A json api using mount
 - Describe the project and its components and goals here
 - Allow to (gracefully) shutdown only server with `(mount.core/stop [#'main/http-server])`
 - Mention how reload works and how one can test it (resources.clj!)
+- Mention dev/env.clj and prod/env.clj and that this idea came from luminus
 
 ## Getting started
 
@@ -31,12 +32,6 @@ This
 ```
 
 will get you a webserver running at `localhost:3000`.
-
-#### ... with rebel-readline
-
-See [rebel-readline](https://github.com/bhauman/rebel-readline) .
-
-    $ clj -M:dev:rebel
 
 ## Usage
 
