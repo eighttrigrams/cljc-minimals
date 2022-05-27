@@ -1,2 +1,6 @@
-.lsp
-.clj-kondo
+**/.lsp
+**/.clj-kondo
+**/.calva
+**/.nrepl-port
+**/.cpcache
+**/.rebel_readline_history
