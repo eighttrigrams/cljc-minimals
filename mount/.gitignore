@@ -1,0 +1,8 @@
+.clj-kondo
+.cpcache
+.lsp
+.rebel_readline_history
+.calva
+.nrepl-port
+env/prod/config.edn
+dev-config.edn

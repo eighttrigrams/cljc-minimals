@@ -1,0 +1,10 @@
+{:paths   ["src"]
+ :deps    {ring/ring-core          {:mvn/version "1.9.5"}
+           ring/ring-devel         {:mvn/version "1.9.5"}
+           ring/ring-jetty-adapter {:mvn/version "1.9.5"}
+           ring/ring-json          {:mvn/version "0.5.1"}
+           mount/mount             {:mvn/version "0.1.16"}
+           cheshire/cheshire       {:mvn/version "5.10.2"}}
+ :aliases {:run     {:extra-paths ["env/prod"]
+                     :exec-fn     main/-main}
+           :dev     {:extra-paths ["env/dev"]}}}
