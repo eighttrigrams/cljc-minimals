@@ -1,0 +1,4 @@
+{:deps {ctmx/ctmx {:mvn/version "1.4.3"}
+        luminus-undertow/luminus-undertow {:mvn/version "0.1.14"}
+        ring/ring-core {:mvn/version "1.9.5"}
+        ring/ring-defaults {:mvn/version "0.3.3"}}}
