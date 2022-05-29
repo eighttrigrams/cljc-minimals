@@ -1,16 +1,13 @@
 (ns main
-  (:gen-class)
   (:require [db.people :as people]
             [clojure.java.jdbc]))
 
 (def db
-  {:dbtype "postgresql"
-   :classname   "org.postgresql.Driver"
-   :subprotocol "postgresql"
-   :dbname "exampledb"
-   :user "dan"
+  {:dbtype   "postgresql"
+   :dbname   "exampledb"
+   :user     "dan"
    :password "key"
-   :port 4444
+   :port     4444
    :hostname "127.0.0.1"})
 
 (defn -main []

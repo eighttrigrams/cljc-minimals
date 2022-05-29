@@ -1,3 +1,2 @@
-{:deps {com.layerware/hugsql {:mvn/version "0.5.3"}
-        com.h2database/h2    {:mvn/version "1.4.196"}
+{:deps {com.layerware/hugsql      {:mvn/version "0.5.3"}
         org.postgresql/postgresql {:mvn/version "42.3.1"}}}

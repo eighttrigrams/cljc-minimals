@@ -1,6 +1,6 @@
-# hugsql
+# next-jdbc
 
-Demonstrates usage of [layerware/hugsql](https://github.com/layerware/hugsql).
+Demonstrates usage of [seancorfield/next-jdbc](https://github.com/seancorfield/next-jdbc).
 Uses a `postgres` database as persistent storage.
 
 You will need to have a running `postgres` or otherwise `docker` installed to run this example. For running postgres within docker, use the following command.
