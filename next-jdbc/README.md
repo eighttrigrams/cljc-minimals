@@ -24,3 +24,7 @@ To run the example, use
 To have a peek into the db after running the example use
 
     $ psql -h localhost -p 4444 -U dan -d exampledb # will ask for password (use 'key')
+
+To reset the docker volume, use
+
+    $ docker volume rm postgres-data
