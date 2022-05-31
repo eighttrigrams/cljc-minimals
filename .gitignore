@@ -4,3 +4,5 @@
 **/.nrepl-port
 **/.cpcache
 **/.rebel_readline_history
+**/.shadow-cljs
+**/node_modules
