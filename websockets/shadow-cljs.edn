@@ -1,0 +1,15 @@
+;; shadow-cljs configuration
+{:source-paths ["src"]
+
+ :dependencies
+ [[hiccups "0.3.0"]]
+
+ :builds
+ {:app
+  {:target :browser
+   :output-dir "public/js"
+   :asset-path "/js"
+
+   :modules
+   {:main ; becomes public/js/main.js
+    {:init-fn client/init}}}}}

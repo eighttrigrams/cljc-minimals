@@ -1,0 +1,8 @@
+{:paths          ["src" "public"]
+ :deps           {org.clojure/clojure             {:mvn/version "1.11.1"}
+                  http-kit/http-kit               {:mvn/version "2.5.3"}
+                  luminus/ring-undertow-adapter   {:mvn/version "1.2.5"}
+                  org.clojure/clojurescript       {:mvn/version "1.10.773"}
+                  uberdeps/uberdeps               {:mvn/version "1.1.4"}}
+ :aliases        {:run-http-kit      {:exec-fn server-http-kit/-main}
+                  :run-ring-undertow {:exec-fn server-ring-undertow/-main}}}
