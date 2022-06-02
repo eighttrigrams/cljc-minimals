@@ -1,0 +1,4 @@
+{:paths ["src" "dev"]
+ :deps  {integrant/integrant     {:mvn/version "0.8.0"}
+         integrant/repl          {:mvn/version "0.3.2"}
+         ring/ring-jetty-adapter {:mvn/version "1.9.5"}}}
