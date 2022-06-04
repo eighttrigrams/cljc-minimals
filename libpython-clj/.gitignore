@@ -1,0 +1,5 @@
+.cpcache
+classes
+**/*/__pycache__
+mnist_test.csv
+mnist_train.csv
