@@ -1,5 +1,8 @@
 # cljc-minimals
 
+See also
+- [eighttrigrams/clojure-claude-and-mcp-knowledge](https://github.com/eighttrigrams/clojure-claude-and-mcp-knowledge)
+
 This repository is meant to bridge the gap between
 tutorials or documentation, which come in the form
 of code snippets, on the one hand, and more complex
