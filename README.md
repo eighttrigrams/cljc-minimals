@@ -2,6 +2,7 @@
 
 See also
 - [eighttrigrams/clojure-claude-and-mcp-knowledge](https://github.com/eighttrigrams/clojure-claude-and-mcp-knowledge)
+- [eighttrigrams/cljc-webstacks](https://github.com/eighttrigrams/cljc-webstacks)
 
 This repository is meant to bridge the gap between
 tutorials or documentation, which come in the form
